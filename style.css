@@ -1,0 +1,285 @@
+* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    main {
+    display: flex;
+    
+    
+    }
+    
+    .img-1 {
+    height: 200px;
+    
+    }
+    
+    button {
+    color: white;
+    background-color: #c51111;
+    border-radius: 5px;
+    border: none;
+    width: 300px;
+    height: 100px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 60px;
+    font-size: 26px;
+    }
+    
+    /*button a:hover{
+    color: #228B22;
+    transition:1s color ease-in-out;
+    }*/
+    
+    .img-2 {
+    height: 800px;
+    
+    }
+    
+    body {
+    height: 100vh;
+    
+    
+    
+    }
+    
+    .secao-1 {
+    justify-content: center;
+    padding: 200px;
+    
+    
+    }
+    
+    .secao-2 {
+    
+    justify-content: center;
+    padding: 200px;
+    }
+    
+    .secao-video {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    }
+    
+    video {
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+    
+    }
+    
+    .mascara {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+    }
+    
+    p {
+    color: white;
+    font-size: 35px;
+    margin-top: 40px;
+    }
+    
+    .whatsapp {
+    height: 70px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    }
+    
+    header {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 40px;
+    cursor: pointer;
+    
+    }
+    
+    .img-3 {
+    height: 150px;
+    }
+    
+    .link-header {
+    color: white;
+    text-decoration: none;
+    }
+    
+    header a:hover {
+    color: #c51111;
+    font-size: 30px;
+    transition: 0.6s ease-in-out;
+    
+    
+    }
+    
+    .formulario-editar {
+        background-color: white;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        position: fixed;
+        top: 50%;
+        left: -50%;
+        transform: translateX(-50%);
+        padding: 20px;
+        border-radius: 6px;
+        height: 700px;
+        width: 500px;
+        transition: left 1.8s ease-in-out;
+    }
+    
+    
+    input {
+    height: 80px;
+    font-size: 30px;
+    border-radius: 5px;
+    border: 0.4px solid gray;
+    padding-left: 5px;
+    outline-color: #228B22;
+    }
+    
+    textarea {
+    height: 290px;
+    border-radius: 5px;
+    font-size: 35px;
+    border: 0.4px solid gray;
+    padding-left: 8px;
+    outline-color: #228B22;
+    }
+    
+    .mascara-formulario {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(1, 1, 13, 1) 0%, rgba(38, 38, 51, 1) 4%, rgba(43, 46, 47, 1) 82%);
+    opacity: 0.8;
+    
+    }
+    
+    @media (max-width: 1900px) {
+    p{
+    display: none;
+    }
+    main{
+    flex-direction: column;
+    }
+    .secao-1 {
+    padding: 30px;
+    }
+    
+    .secao-2 {
+    padding: 30px;
+    }
+    
+    .img-2 {
+    height: 750px;
+    margin-top: 20px;
+    margin-left: 70px;
+    }
+    
+    button{
+    display: none
+    }
+    .formulario-editar{
+    display: none
+    }
+    
+    header {
+    
+    gap: 15px;
+    margin-top: 35px;
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    
+    
+    }
+    
+    .img-3 {
+    height: 100px;
+    
+    }
+    
+    .img-1 {
+    height: 350px;
+    margin-top: 30px;
+    margin-left: 50px;
+    
+    }
+    .whatsapp {
+    height: 90px;
+    left: 30px;
+    
+    }
+    }
+    
+    @media (max-width: 470px) {
+    p{
+    display: none;
+    }
+    main{
+    flex-direction: column;
+    }
+    .secao-1 {
+    padding: 30px;
+    }
+    
+    .secao-2 {
+    padding: 30px;
+    }
+    
+    .img-2 {
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 30px;
+    }
+    
+    button{
+    display: none
+    }
+    
+    header {
+    
+    gap: 10px;
+    margin-top: 55px;
+    margin-left: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    
+    
+    }
+    
+    .img-3 {
+    height: 40px;
+    }
+    
+    .img-1 {
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 50px;
+    
+    }
+    
+    .formulario-editar{
+    display: none
+    }
+    
+    
+    .whatsapp {
+    height: 70px;
+    left: 20px;
+    
+    }
+    }
